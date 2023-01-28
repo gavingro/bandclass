@@ -19,12 +19,11 @@ HOME_PAGE = [
                         lg=6,
                         children=[
                             html.Img(
-                                id="img-display",
                                 className="d-block mx-lg-auto img-fluid",
                                 width=500,
                                 height=500,
                                 alt="Stock band class photo.",
-                                src="assets/bandphoto.jpeg",
+                                src=app.get_asset_url("bandphoto.jpg"),
                             ),
                         ],
                     ),
